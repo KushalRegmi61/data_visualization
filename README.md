@@ -1,40 +1,37 @@
 ### 🔹 Week 4: Data Visualization & Presentation
 
 #### 📌 Overview  
-‣ Understand two key purposes of data visualization: **exploratory analysis** (discovering insights) and **explanatory analysis** (communicating findings).  
-‣ Learn chart selection, ethical data presentation, and storytelling principles using Python visualization libraries.
+‣ Applied key concepts from the module—exploratory vs explanatory visualization, ethical storytelling, and design principles—to real datasets.  
+‣ Practiced communicating insights clearly through data-driven narratives using visual tools.
 
 ---
 
-#### 🧰 Pre-session Work  
-‣ Explored visualization foundations and design principles: color theory, typography, layout, and the ethics of accurate representation.  
-‣ Practiced EDA using libraries like **Matplotlib**, **Seaborn**, and **Pandas** on two real-world datasets:
-- `heart_disease_analysis.ipynb`: Investigated health-related trends in a heart disease dataset.
-- `roller_coasterEDA.ipynb`: Explored roller coaster statistics using visual summaries.
+#### 📝 Post-session Work
 
-📁 Location: `pression_work/`  
-📁 Data: `data/coaster_db.csv`, `data/heart_2020_cleaned.csv`
+This section demonstrates the practical implementation of what I learned throughout the week:
 
----
+📁 `notebooks/`
 
-#### 🧠 Live Session  
-‣ Practiced visualizing one-dimensional, two-dimensional, and multi-dimensional data using grouped plots, heatmaps, and correlation charts.  
-‣ Emphasized distinction and balance between exploratory and explanatory visualization types.  
-‣ Built visual narratives from raw datasets using an **assertion-evidence framework**.
+- **`EDA_on_employee_dataset.ipynb`**  
+  Explored a synthetic employee dataset to uncover trends in gender distribution, departments, job satisfaction, and salary levels.  
+  ‣ Used grouped bar charts, histograms, and count plots to reveal internal company patterns.  
+  ‣ Focused on visual clarity, audience relevance, and presentation flow.
 
----
+- **`EDA_on_seaborn_tips_dataset.ipynb`**  
+  Performed structured exploratory and explanatory visualizations on Seaborn’s `tips` dataset.  
+  ‣ Key findings:  
+    - Dinner tips are generally higher than lunch  
+    - Male and non-smoking customers tend to tip more  
+    - Larger groups tip more in total but less per person  
+    - Tips peak on weekends, especially Saturday and Sunday  
+  ‣ Applied storytelling techniques and the assertion-evidence framework to communicate insights effectively.
 
-#### 📝 Post-session Tasks  
-‣ Applied storytelling principles and best practices in two independent visual analyses:
-- `EDA_on_employee_dataset.ipynb`: Focused on department-wise insights, job satisfaction, and salary bands.
-- `EDA_on_seaborn_tips_dataset.ipynb`: Created both exploratory and explanatory visualizations on tipping behavior.
-
-📁 Location: `postsession_work/`
+These notebooks reflect a complete cycle of insight generation → visual encoding → narrative construction.
 
 ---
 
 #### 💡 Key Insight  
-‣ Effective visualization and ethical storytelling bridge the gap between data and decisions—turning raw numbers into narratives that inform, persuade, and inspire.
+‣ Effective visual storytelling transforms exploration into impact—when combined with thoughtful design, even simple data can tell powerful stories.
 
 ---
 
@@ -44,18 +41,11 @@
 
 project-root/
 │
-├── data/
-│   ├── coaster\_db.csv
-│   └── heart\_2020\_cleaned.csv
-│
-├── postsession\_work/
+├── notebooks/
 │   ├── EDA\_on\_employee\_dataset.ipynb
 │   └── EDA\_on\_seaborn\_tips\_dataset.ipynb
-│
-├── pression\_work/
-│   ├── heart\_disease\_analysis.ipynb
-│   └── roller\_coasterEDA.ipynb
 │
 └── README.md
 
 ```
+
