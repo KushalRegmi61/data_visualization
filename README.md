@@ -37,5 +37,5 @@ These notebooks reflect a complete cycle of insight generation, visual encoding,
 ---
 
  **Full Fellowship Journey Repository:**
- [GitHub – Fusemachines AI Fellowship Progress](https://github.com/KushalRegmi61/fusemachines-ai-fellowship)
+ [GitHub – Fusemachines AI Fellowship Progress](https://github.com/KushalRegmi61/AI_Fellowship_FuseMachines)
 
